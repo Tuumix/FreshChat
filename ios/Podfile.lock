@@ -296,6 +296,8 @@ PODS:
   - RNFreshchatSDK (2.3.1):
     - FreshchatSDK (= 3.3.2)
     - React
+  - RNVectorIcons (6.6.0):
+    - React
   - Yoga (1.14.0)
   - YogaKit (1.18.1):
     - Yoga (~> 1.14)
@@ -334,6 +336,7 @@ DEPENDENCIES:
   - ReactCommon/callinvoker (from `../node_modules/react-native/ReactCommon`)
   - ReactCommon/turbomodule/core (from `../node_modules/react-native/ReactCommon`)
   - RNFreshchatSDK (from `../node_modules/react-native-freshchat-sdk`)
+  - RNVectorIcons (from `../node_modules/react-native-vector-icons`)
   - Yoga (from `../node_modules/react-native/ReactCommon/yoga`)
 
 SPEC REPOS:
@@ -403,6 +406,8 @@ EXTERNAL SOURCES:
     :path: "../node_modules/react-native/ReactCommon"
   RNFreshchatSDK:
     :path: "../node_modules/react-native-freshchat-sdk"
+  RNVectorIcons:
+    :path: "../node_modules/react-native-vector-icons"
   Yoga:
     :path: "../node_modules/react-native/ReactCommon/yoga"
 
@@ -444,9 +449,10 @@ SPEC CHECKSUMS:
   React-RCTVibration: 0630aeb11e22f87c180ca9c0c3a0a0aba780cc62
   ReactCommon: d22162ab8f1358c53dfcd0f9c4d82d38facdbc48
   RNFreshchatSDK: bf4065c05e82b9de1889ed662d008a73d27fd9a3
+  RNVectorIcons: 0bb4def82230be1333ddaeee9fcba45f0b288ed4
   Yoga: 9db9ff2025ad21d1ac0a8b3c85d5ac4e7c29d525
   YogaKit: f782866e155069a2cca2517aafea43200b01fd5a
 
-PODFILE CHECKSUM: eacd983ce5d72dfe3f6a912cee482f5a6a6bc78f
+PODFILE CHECKSUM: 2b589d97fbc88adb5eb2d277b7fbb1bdb52df66e
 
 COCOAPODS: 1.9.0
